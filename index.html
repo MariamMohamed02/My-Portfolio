@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    
+    <div id="header">    
+            <nav>
+                <div class="logo">
+                    <h2>My Portfolio.</h2>
+                </div>
+                <div class="container">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Portfolio</a></li>
+                </ul>
+            </div>
+            </nav>
+       
+            <div class="header-text">
+                <h2>Welcome to my Personal Portfolio</h2>
+                <br>
+                <p>I am a Third Year <br> Computer and Communication Engineering Student <br> at Alexandria University</p>
+            </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="image">
+                    <img src="images/laptop-2838917_1280.jpg" alt="about">
+                </div>
+                <div class="text">
+                    <h3>About Me</h3>
+                    <p>I am intresetd in the field of software development and currently looking for internships to help me gain experience.</p>
+
+                    <div class="about-titles">
+                        <p class="about-links" onclick="opentab('skills')">Skills</p>
+                        <p class="about-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+
+                    <div class="about-content active-tab " id="skills">
+                        <p>My Skills:</p>
+                        <ul>
+                            <li>I have a solid foundation in languages including: C, C++, Java, Python, and PHP</li>
+                            <li>I am also experienced with HTML, CSS, Javascript and Bootstrap for frontend development</li>
+                            <li>I have a soild foundation in Object Oriented Programming with strong understanding of Design Patterns and SOLID Principles</li>
+                            <li>I have experience working with databases and possess strong proficiency in writing SQL queries. </li>
+                        </ul>
+                    </div>
+
+                    
+                    <div class="about-content" id="experience">
+                        <p>Internships: </p>
+                        <p>
+                            Web Development Intern at RMZTech    
+                        </p>
+                        <ul>
+                            <li>
+                                 Developed a Blog Website
+                            </li>
+                            <li>Implemented login/signup page, adding a post, adding pictures and other functionalities</li>
+                        </ul>
+                    </div>
+                    
+                  
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="projects">
+        <div class="container">
+            <h1>My Projects</h1>
+            <div class="list">
+                <div class="project">
+                    <img src="images/mealify.jpg" alt="mealify">
+                    <div class="layer">
+                        <h3>Mealify Website</h3>
+                        <p>Responsive restaurants Website built using HTML and CSS</p>
+                        <a href="https://mariammohamed02.github.io/Mealify/" target=”_blank”>View Website</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/portfolio.jpg" alt="portfolio">
+                    <div class="layer">
+                        <h3>Portfolio Website</h3>
+                        <p>Responsive portfolio built using HTML and CSS</p>
+                        <a href="https://mariammohamed02.github.io/Personal-Porfolio-Responsive_Website/" target=”_blank”>View Website</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/car_rental/login.jpg" alt="car_rental">
+                    <div class="layer">
+                        <h3>Car Rental System</h3>
+                        <p>Built using HTML, CSS, Bootstrap, php, mySQL</p>
+                        <a href="car.html" >View Project</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/game/circus.jpg" alt="circus">
+                    <div class="layer">
+                        <h3>Circus of Plates</h3>
+                        <p>A java game built using OOP concepts and design patterns</p>
+                        <a href="game.html" >View Project</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/Paint.jpg" alt="Paint">
+                    <div class="layer">
+                        <h3>Paint Application</h3>
+            
+                       
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
